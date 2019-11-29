@@ -7,37 +7,55 @@
     <title>AKAN-NAMES</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
      <div class="jumbotron">
      <h1>AKAN-NAMES</h1> 
      </div> 
-     <div class="container">
-         <div class="jumbotron">
-         <div class="row">
-             <div class="col-md-12">
-             <h2><strong>Heard of this?</h2></strong>
-             </div>
-             <div class="p">
-            <p>Akan names are Ghananian names.The people of ghana name their children after the days of week<br>and order in which they were born.For those who don't know the day of the week they were born there <br> are ways to calculate that from a specific date. </p>
-           </div>
-           </div>
-           </div>
-           <div class="container">
-      <div>
-       <input type="number" class="Day" placeholder="Day of month" required>
-       </div>
-       <div>
-       <input type="number" class="month" placeholder="month" required>
-    <div>
-        <input type="number" class="year" placeholder="year"required>
-        </div>
-        </div>
-    </div>
-    <div id ="gender" class="checkbox"></div> 
-    Male<input type="radio" value="Male" id="Male" name="Gender">
-    Female<input type="radio" value="Female" id="Female" name="Gender">
-   <input type="button" value="Submit" onclick="getname"(); class="bg-success">
 
+     <div>
+       <h2><strong>Heard of this?</h2></strong>
+       <p>Akan names are Ghananian names.The people of ghana name their children after the days of week<br>and order in which they were born.For those who don't know the day of the week they were born there <br> are ways to calculate that from a specific date. </p>
+ 
+     </div>
+         <div class="container">
+        
+         <div class="row">
+             <div class="col-md-6">
+                 <form action="#" method="POST">
+                     <p>Please enter your details to confirm your Akan name and your day of birth</p>
+                     <div class="me">
+                    <div>
+                        <input type="number" class="Day" placeholder="DD" required>
+                    </div>
+                    <div>
+                        <input type="number" class="Month" placeholder="MM" required>
+                    </div>
+                    <div>
+                        <input type="number" class="Year" placeholder="yyyy"required>
+                    </div>
+                </div>
+                    <div id ="gender" class="checkbox">
+                        Male<input type="radio" value="Male" id="Male" name="Gender">
+                        Female<input type="radio" value="Female" id="Female" name="Gender">
+
+                    </div> 
+                    <div class="button">
+                        <input type="button" value="Submit" onclick="getname()"; class="bg-primary">
+                    </div>
+                 </form>
+                 
+             </div>
+             <div class="col-md-6">
+             </div>
+            </div>
+           </div>
+           </div>
+           </div>
+           
+</div>
    </body>
 </html>
