@@ -1,22 +1,30 @@
-body{
-    background-color: peachpuff;
-}
-    h1{
-        font-family: 'Bebas Neue', cursive;
-        font-size: 50px;
-        color:white;
-    }
-    .img{
-        float: right;
-       border-radius: 40%;
-       justify-content: right;
-    }
-    
-    p{
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 30px;
-    }
-    .me input{
-        width: 80%;
-        margin-bottom: 4%;
-    }
+
+
+/* body {
+    background: url(/images/Emma\ Thomson\ na\ Instagrame_\ „What’s\ in\ a\ name_\ ⠀⠀…\ \(1\).png);
+    background-repeat: no-repeat; 
+    background-size: cover
+  } */
+ 
+   h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: white;
+    text-decoration: underline;
+  } 
+ 
+  /* .img {
+    float: right;
+    border-radius: 40%;
+    justify-content: right;
+  } */
+ 
+  p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+  }
+/*  
+  .me input {
+    width: 80%;
+    margin-bottom: 4%;
+  } */

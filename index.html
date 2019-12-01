@@ -1,6 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,53 +11,61 @@
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-</head>
-<body>
+  </head>
+
+  <body>
     <div class="container">
-     <div class="jumbotron">
-     <h1>AKAN-NAMES</h1> 
-     </div> 
+      <div class="jumbotron">
+        <h1>AKAN-NAMES</h1>
+      </div>
 
-     <div>
-       <h2><strong>Heard of this?</h2></strong>
-       <p>Akan names are Ghananian names.The people of ghana name their children after the days of week<br>and order in which they were born.For those who don't know the day of the week they were born there <br> are ways to calculate that from a specific date. </p>
- 
-     </div>
-         <div class="container">
-        
-         <div class="row">
-             <div class="col-md-6">
-                 <form action="#" method="POST">
-                     <p>Please enter your details to confirm your Akan name and your day of birth</p>
-                     <div class="me">
-                    <div>
-                        <input type="number" class="Day" placeholder="DD" required>
-                    </div>
-                    <div>
-                        <input type="number" class="Month" placeholder="MM" required>
-                    </div>
-                    <div>
-                        <input type="number" class="Year" placeholder="yyyy"required>
-                    </div>
-                </div>
-                    <div id ="gender" class="checkbox">
-                        Male<input type="radio" value="Male" id="Male" name="Gender">
-                        Female<input type="radio" value="Female" id="Female" name="Gender">
+      <div>
+        <div class="card">
+          <h2><strong>Heard of this?</h2></strong>
+          <p>Akan names are Ghananian names.The people of ghana name their children after the days of week<br>and order in which they were born.For those who don't know the day of the week they were born there <br> are ways to calculate that from a specific date.</p>
+          <div class="container">
 
-                    </div> 
-                    <div class="button">
-                        <input type="button" value="Submit" onclick="getname()"; class="bg-primary">
-                    </div>
-                 </form>
-                 
-             </div>
-             <div class="col-md-6">
-             </div>
+            <div class="row">
+              <div class="col-md-6">
+                <form action="#">
+                  <p>Please enter your details to confirm your Akan name and your day of birth</p>
+                  <label for="day">Day</label>
+                  <div id="day">
+                    <input type="number" id="d" name="date-of-birth" placeholder="dd">
+                  </div>
+
+                  <label for="month">Month</label>
+                  <div id="month">
+                    <input type="number" id="m" name="month-of-birth" placeholder="mm">
+                  </div>
+
+                  <label for="year">Year</label>
+                  <div id="year">
+                    <input type="number" id="yy" name="year-of-birth" placeholder="yyyy">
+                  </div>
+              </div>
+
+              <form action="/action_page.php">
+                <input type="checkbox" name="male" value="male" id="male"> Male<br>
+                <input type="checkbox" name="female" value="female" id="female"> Female<br>
+              </form>
+              <div class="button">
+                <a class="btn btn-outline-primary" onclick="submission()">submit</a>
+              </div>
+              </form>
             </div>
-           </div>
-           </div>
-           </div>
-           
-</div>
-   </body>
+          </div>
+        </div>
+        <div class="col-md-6">
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+    <p id="ppp"></p>
+    <script src="js/custom.js"></script>
+  </body>
+
 </html>
