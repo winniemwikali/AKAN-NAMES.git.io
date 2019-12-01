@@ -14,10 +14,12 @@
     var currentDate = new Date(year + "/" + month + "/" + date);
     var currentYear = currentDate.getDay();
     if (male.checked) {
-      document.getElementById("ppp").innerHTML = "This is your Akan name  " + maleNames[currentYear] + "so you were born on " + daysOfTheWeek[currentYear]
+      document.getElementById("winnie").innerHTML = "This is your Akan name  " + maleNames[currentYear] + " so you were born on " + daysOfTheWeek[currentYear]
     } else if (female.checked) {
-      document.getElementById("ppp").innerHTML = "This is your Akan name  " + femaleNames[currentYear] + "so you were born on " + daysOfTheWeek[currentYear]
+      document.getElementById("winnie").innerHTML = "This is your Akan name  " + femaleNames[currentYear] + " so you were born on " + daysOfTheWeek[currentYear]
     }
   
   }
-  
+  $ (document).ready(function(){
+    $
+  })
