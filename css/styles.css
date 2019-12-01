@@ -5,7 +5,11 @@
     background-repeat: no-repeat; 
     background-size: cover
   } */
- 
+ body{
+background-image: url(https://i.pinimg.com/564x/6f/dc/a2/6fdca2fd368402c6e95d05b1083c5f96.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+ }
    h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
@@ -28,3 +32,7 @@
     width: 80%;
     margin-bottom: 4%;
   } */
+.button {
+  margin-top: 50px;
+  margin-left: 1%;
+}
