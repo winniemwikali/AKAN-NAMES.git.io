@@ -1,5 +1,5 @@
 # Project name
-## Akan-Names
+## AKAN-NAMES
 
 ## Description
 - The project is an application that determines the week which an individual was born.
