@@ -32,7 +32,16 @@ background-size: cover;
     width: 80%;
     margin-bottom: 4%;
   } */
+
 .button {
   margin-top: 50px;
   margin-left: 1%;
 }
+
+.card {
+  padding: 5%;
+}
+ .radio {
+   margin-top: 40%;
+ }
+

@@ -14,9 +14,9 @@
     var currentDate = new Date(year + "/" + month + "/" + date);
     var currentYear = currentDate.getDay();
     if (male.checked) {
-      document.getElementById("ppp").innerHTML = "your Akan name is " + maleNames[currentYear] + "and you were born on " + daysOfTheWeek[currentYear]
+      document.getElementById("ppp").innerHTML = "This is your Akan name  " + maleNames[currentYear] + "so you were born on " + daysOfTheWeek[currentYear]
     } else if (female.checked) {
-      document.getElementById("ppp").innerHTML = "your Akan name is " + femaleNames[currentYear] + "and you were born on " + daysOfTheWeek[currentYear]
+      document.getElementById("ppp").innerHTML = "This is your Akan name  " + femaleNames[currentYear] + "so you were born on " + daysOfTheWeek[currentYear]
     }
   
   }
