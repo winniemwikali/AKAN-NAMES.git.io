@@ -9,7 +9,7 @@
 - 
 
 ## Author
-- Winnie Web Developer
+- Winnie Mwikali Web Developer
 ## Setup instructions
 - You can fork the application from github
 - Open your terminal in your PC and type in the search button and   search for terminal
