@@ -5,8 +5,6 @@
 - The project is an application that determines the week which an individual was born.
 - The application outputs the Akan names of the users depending on their gender.
 
-## Screenshot
-- <img src="img_girl.jpg" alt="Girl in a jacket">
 
 ## Author
 - Winnie Mwikali Web Developer
