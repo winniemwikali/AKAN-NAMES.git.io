@@ -6,7 +6,7 @@
     background-size: cover
   } */
  body{
-background-image: url(https://i.pinimg.com/564x/6f/dc/a2/6fdca2fd368402c6e95d05b1083c5f96.jpg);
+background-image: url(https://bit.ly/2P5816x);
 background-repeat:no-repeat;
 background-size: cover;
  }
@@ -50,3 +50,7 @@ background-size: cover;
 
 }
 
+#winnie {
+  color: blue;
+  text-align: center;
+}
