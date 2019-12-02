@@ -5,8 +5,6 @@
     var femaleNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama']
   
     var daysOfTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
-    if (date-of-birth === "" || date-of-birth < 1 || date-of-birth > 12 || month === "" || month < 0 || month > 31 || year-of-birth === "" || year-of-birth.length > 4 || name === ""){
-      alert("Confirm that you have entered the correct information!")
   
     var date = document.getElementById("d").value;
     var month = document.getElementById("m").value;
